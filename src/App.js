@@ -1,8 +1,8 @@
 import "./App.css";
 
 function App() {
-    alert(window);
-    alert(JSON.stringify(window));
+    alert(Object.keys(window));
+    // alert(JSON.stringify(window));
     return (
         <div className="App">
             <header className="App-header"></header>
