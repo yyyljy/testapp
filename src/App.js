@@ -71,7 +71,7 @@ function App() {
         <>
             <div>ETH RAW TX</div>
             <a
-                href={`intent://wallyptoLink#Intent;scheme=dapp;S.signurl=https://dev4.innogrid.com:8443/innogrid/4/dapp/wallet/result_transaction?${account}${rawTx}${sse};package=xyz.wallypto;end`}
+                href={`intent://wallyptoLink#Intent;scheme=dapp;S.signurl=https://dev4.innogrid.com:8443/innogrid/4/dapp/wallet/result_transaction?${account}${rawTx}${sse};package=io.wallypto;end`}
             >
                 asd
             </a>
