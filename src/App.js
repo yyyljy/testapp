@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-    alert(window.LGWallet);
+    alert(Object.keys(window.LGWallet));
     // alert(JSON.stringify(window));
     return (
         <div className="App">
