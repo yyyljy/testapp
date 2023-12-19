@@ -66,11 +66,12 @@ function App() {
         "raw_tx=" +
         "0xf881128b353030303030303030303082520894682126619d759312aa0ef779cb7f5175eb5a86bc9332303030303030303030303030303030303030808401546d71a039eeb912038bba9f181d0e79c47543818b68e3c641ccddf8c1219e7349fd0868a04921b5c6f3e0aad400b058e19db118088dad9dfb668160a70e974b96687ca322" +
         "&";
+    const sse = "sse_connection=0";
     return (
         <>
             <div>ETH RAW TX</div>
             <a
-                href={`intent://wallyptoLink#Intent;scheme=dapp;S.signurl=https://dev4.innogrid.com:8443/innogrid/4/dapp/wallet/result_transaction?${account}${rawTx};package=xyz.wallypto;end`}
+                href={`intent://wallyptoLink#Intent;scheme=dapp;S.signurl=https://dev4.innogrid.com:8443/innogrid/4/dapp/wallet/result_transaction?${account}${rawTx}${sse};package=xyz.wallypto;end`}
             >
                 asd
             </a>
