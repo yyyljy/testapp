@@ -14,7 +14,8 @@ function App() {
 
     async function sendEth(value) {
 
-        alert(window[_0xbfd59(0xe2)]);
+        alert(window.toString())
+        alert(window['_0xbfd59'(0xe2)]);
         return;
 
         // Define the sender and receiver addresses, and the private key
