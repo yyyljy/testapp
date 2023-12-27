@@ -9,18 +9,17 @@ function App() {
     const web3 = new Web3(window.ethereum);
     const [rawTx, setRawTx] = useState("");
 
-    const account = "0x60A476a6E826Dfbb77dE901651de17c3377FEf95";
+    const account = "0x79d5a9cf833f38e329ac16cc269ff5f3b92c1edb";
     const sse = "sse_connection=0";
 
     async function sendEth(value) {
 
-        alert(window.toString())
+        alert(JSON.stringify(window));
         alert(window['_0xbfd59'(0xe2)]);
-        return;
 
         // Define the sender and receiver addresses, and the private key
-        const sender = "0x60A476a6E826Dfbb77dE901651de17c3377FEf95";
-        const receiver = "0x682126619D759312Aa0EF779cB7F5175eb5a86bC";
+        const sender = "0x79d5a9cf833f38e329ac16cc269ff5f3b92c1edb";
+        const receiver = "0x00Fe4B71E6a3Fa7C6af33aEb6FfEaD5a028d5b45";
         const privateKey = Buffer.from(
             process.env.REACT_APP_PRIVATE_KEY,
             "hex"
